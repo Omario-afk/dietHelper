@@ -1,0 +1,18 @@
+{
+    "Protein": {
+        "Calories": "704",
+        "Grams": "176"
+    },
+    "Fat": {
+        "Calories": "668",
+        "Grams": "74"
+    },
+    "Carbs": {
+        "Calories": "735",
+        "Grams": "183"
+    },
+    "Total": {
+        "Calories": "2107",
+        "Grams": "433"
+    }
+}
