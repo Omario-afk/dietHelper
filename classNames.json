@@ -1,0 +1,10 @@
+{
+  "googleNutritionInfo" : "I6TXqe",
+  "nutritionvalueTable_id": "nutrition-label",
+  "nutritionvalueTable_class": "center zero",
+
+  "portionSelect_class": "serving",
+  "portionSelectValue": "data-value",
+
+  "foodImgXpath": "//*[@id=\"main\"]/tbody/tr[4]/td/table/tbody/tr[2]/td/table/tbody/tr/td[1]/img"
+}
