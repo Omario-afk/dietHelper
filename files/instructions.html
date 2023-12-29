@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instructions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="imgs/icon-white.png"  type="image/x-icon">
+</head>
+<body>
+    <div class="container"> 
+        <h1>Instructions</h1>
+        <hr>
+        <hr>
+        <p class="top">
+            When you're ready, <br>
+            click on the button at the bottom of the page. <br> <br>
+            The following will show you what to do and what to look for
+
+        </p>
+        <hr>
+        <p class="middle">
+            When you press the button, a new page will be opened <br>
+            Search for the foods that you want to add <br>
+            <br>
+            When you see this table on the page of your selected item:
+        </p>
+        <img src="imgs/table.png" alt="nutrition table">
+        <p class="middle">
+            Press the "+" button on the app, and search for the next one
+        </p>
+        <hr>
+        <h2>Additional</h2>
+        <hr>
+        <p class="middle">
+            For items that aren't usually measured in Grams/Litres <br> 
+            but counted e.g. 1 apple, 2 bananas, <br>
+            you can select the portion size that is similar (if not the same) to  what you want
+        </p>
+        <img src="imgs/portion.png" alt="portion">
+        <hr>
+        <p class="middle">
+            That's It!
+        </p>
+        <button id="redirectButton">The "Button"</button>
+        <p class="middle">
+            You can close this browser when you're done
+        </p>
+    </div>
+</body>
+<script>
+    document.getElementById('redirectButton').onclick = function() {
+        window.open('https://www.nutritionvalue.org/', '_blank');
+    };
+</script>
+</html>
